@@ -1,0 +1,71 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url(../fonts/Oswald-Light.ttf)
+}
+
+body { 
+    background-color: #fff4e1;
+}
+
+header {
+    margin: 1em;
+    background-color: #ffbba8;
+    border: 5px solid #70001f ;
+}
+
+h1 {
+    font-family: 'UbuntuRegular';
+    color: #70001f;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.navbar_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar_ul li a {
+    color: #a93e4a;
+    font-size: 1.75em;
+    font-family: 'OswaldRegular';
+    
+}
+
+.navbar_ul li a:hover {
+    color: #a93e4a;
+    font-weight: bold;
+}
+
+.block_one {
+    margin: 2.8em 0em;
+}
+
+.text_block_one {
+    display: flex;
+    align-items: center;
+}
+
+.text_block_one p {
+    color: #000000;
+    font-size: 1.75em;
+    font-family: 'OswaldRegular';
+}
+
+.carousel_home {
+    width: 100%;
+    height: 20em;
+}
+
